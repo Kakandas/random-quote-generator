@@ -5,8 +5,6 @@ import './App.css';
 
 function App() {
   const [quotes, setQuotes] = useState([])
-  
-  
 
   const newQuote = () => {
        fetch('https://api.quotable.io/random')
